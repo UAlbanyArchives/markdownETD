@@ -2,9 +2,17 @@
 
 Use `template.md` to format your thesis and dissertation.
 
+You can edit Markdown with any text editor, but specific editors also render as you write.
+* [Typora](https://typora.io/) (paid)
+* [marktext](https://github.com/marktext/marktext) (free)
+
+Online/Browser-Based Editors
+* [StackEdit](https://stackedit.io/)
+* [Dillinger](https://dillinger.io/)
+
 [Markdown Guide](https://www.markdownguide.org/)
 
-## Pandoc command for HTML
+## Pandoc command for converting to HTML
 
 ```
 pandoc template.md
@@ -29,7 +37,7 @@ pandoc template.md \
   -o thesis.html
 ```
 
-## Pandoc command for PDF
+## Pandoc command for converting to PDF
 
 ```
 pandoc template.md \
